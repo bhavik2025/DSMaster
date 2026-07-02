@@ -22,14 +22,15 @@ class conveyor:
     def is_full(self):
         return all(slot is not None for slot in self.slots)
 
+conveyor_belt = conveyor()
+
 while True:
-    conveyor_belt = conveyor()
     print("Conveyor Belt System")
     print("1. Check Slot")
     print("2. Find Product")
     print("3. Update Slot")
     print("4. Check if Full")
-    print("5. Exit")
+    print("0. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -67,7 +68,7 @@ while True:
         else:
             print("The conveyor belt is not full.")
 
-    elif choice == '5':
+    elif choice == '0':
         print("Exiting the program.")
         break
 

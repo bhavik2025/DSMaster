@@ -42,8 +42,9 @@ class TollPlaza:
             print(f"- {self.queue[index]}")
             index = (index + 1) % self.capacity
 
+toll_plaza = TollPlaza()
+
 while True:
-    toll_plaza = TollPlaza()
     print("\nToll Plaza Simulation")
     print("1. Enter Vehicle")
     print("2. Exit Vehicle")
