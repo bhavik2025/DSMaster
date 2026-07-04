@@ -1,5 +1,3 @@
-# Linear Search
-
 blacklist = ["SP101", "SP205", "SP330", "SP450", "SP500"]
 
 target = input("Enter Sender ID: ")
